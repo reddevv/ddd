@@ -2,7 +2,7 @@ from flask import Flask, request, abort
 
 app = Flask(__name__)
 
-@app.route("/callback")
+@app.route("/")
 def index()
     return("sukses bosque")
     
